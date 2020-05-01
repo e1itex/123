@@ -1,4 +1,6 @@
 import os
+import requests
+
 try:
     from torrequest import TorRequest
 except:
