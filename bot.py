@@ -9,7 +9,7 @@ except:
  
 with TorRequest(password='Risk1234') as tr:
  
-headers = {"User-Agent":"Mozilla"}
+headers = {'User-Agent':'Mozilla'}
 a = str(input("URL    - "))
 x = int(input("Amount - "))
  
