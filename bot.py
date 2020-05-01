@@ -1,5 +1,5 @@
 import os
-import requests
+import request
 
 try:
     from torrequest import TorRequest
@@ -9,7 +9,7 @@ except:
  
 with TorRequest(password='Risk1234') as tr:
  
-headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0"}
+headers = {"User-Agent":"Mozilla"}
 a = str(input("URL    - "))
 x = int(input("Amount - "))
  
